@@ -33,5 +33,25 @@ public class Cup {
 		 }
 		 
 	 }
+	 class SmallCup extends Cup {
+		 public void setLiquidVolume( int liquidVolume  ) {
+			 if ( liquidVolume > 0 && liquidVolume < 250) {
+			 } else {
+				 System.out.println("wrong mll");
+			 }
 
+		}
+	 class BigCup extends Cup {
+		 public void setLiquidVolume( int liquidVolume  ) {
+			 
+			 if ( liquidVolume > 0 && liquidVolume < 1000) {
+			 } else {
+				 System.out.println("wrong mll");
+			 }
+			
+		   
+		}
+	 }
+
+   }
 }
